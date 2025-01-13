@@ -1,0 +1,130 @@
+{
+    "intents": [
+       {
+          "intent": "greeting",
+          "text": [
+             "Hi", "Hello", "Hey", "How are you?", "Good morning", "Good evening", "Greetings", "What's up?",
+             "Hey there", "Howdy", "What's going on?", "Howdy, partner", "What's happening?", "Hello there!"
+          ]
+       },
+       {
+          "intent": "covid_origin",
+          "text": [
+             "What is the region of origination of COVID-19?", "Where did COVID-19 come from?", "How did COVID-19 start?",
+             "Which country did COVID-19 originate in?", "Where did coronavirus start?", "When did COVID-19 start?",
+             "Where was COVID-19 first detected?", "In which country did the first case of COVID-19 appear?",
+             "What city did COVID-19 originate from?", "Where did COVID-19 first spread?"
+          ]
+       },
+       {
+          "intent": "covid_deaths",
+          "text": [
+             "How many people died from this virus?", "How many deaths have occurred due to COVID-19?", "What is the death toll from COVID-19?",
+             "How many people have died because of COVID-19?", "What is the global death rate of COVID-19?", "How many people died from COVID worldwide?",
+             "What's the current death toll of COVID-19?", "How many fatalities have there been because of COVID-19?", "What is the total number of deaths from COVID-19?"
+          ]
+       },
+       {
+          "intent": "covid_business_loss",
+          "text": [
+             "How much loss occurred in businesses due to COVID-19?", "How did COVID-19 affect businesses globally?", "What was the impact of COVID-19 on businesses?",
+             "How much did the economy lose due to COVID-19?", "What was the effect of COVID-19 on the global economy?", "How did COVID-19 harm businesses?",
+             "What was the financial impact of COVID-19?", "How did businesses cope with COVID-19 losses?", "How much was lost in the economy during COVID-19?"
+          ]
+       },
+       {
+          "intent": "covid_age_comparison",
+          "text": [
+             "How much ratio died of younger vs older people?", "Is COVID-19 more dangerous for younger or older people?", "Who is more vulnerable to COVID-19, younger or older?",
+             "Is COVID-19 more harmful to young people or old people?", "What is the death rate among older adults compared to younger people?",
+             "Which age group suffers the most from COVID-19?", "Who is more likely to die from COVID-19, older adults or children?", "Is COVID-19 more fatal to the elderly?",
+             "Are older people at a higher risk of COVID-19?"
+          ]
+       },
+       {
+          "intent": "covid_prone_group",
+          "text": [
+             "Who is more prone to get COVID?", "Which age group is more prone to get COVID-19?", "Who is more likely to get COVID-19?",
+             "Are children or adults more prone to COVID-19?", "Who is more susceptible to COVID-19?", "Which demographic is at higher risk for COVID-19?",
+             "Who is most likely to contract COVID-19?", "What groups are most vulnerable to COVID-19?", "What factors make people more susceptible to COVID-19?"
+          ]
+       },
+       {
+          "intent": "covid_pakistan_deaths",
+          "text": [
+             "How many died in Pakistan due to COVID-19?", "What is the death toll of COVID-19 in Pakistan?", "How many people have died from COVID-19 in Pakistan?",
+             "What is the total death number of COVID-19 in Pakistan?", "How many COVID-19 related deaths are reported in Pakistan?", "What is the COVID-19 death toll in Pakistan?",
+             "How many people died of COVID in Pakistan?", "What is the number of deaths in Pakistan due to COVID-19?", "What is the total fatality count in Pakistan from COVID-19?"
+          ]
+       },
+       {
+          "intent": "covid_business_impact_pakistan",
+          "text": [
+             "How much business was affected in Pakistan due to COVID-19?", "What was the business impact of COVID-19 in Pakistan?", "How did COVID-19 affect businesses in Pakistan?",
+             "How much was the economy affected in Pakistan by COVID-19?", "What is the business loss caused by COVID-19 in Pakistan?", "How has COVID-19 disrupted Pakistan's economy?",
+             "What is the effect of COVID-19 on Pakistan's business sector?", "How did the pandemic affect businesses in Pakistan?", "What financial loss did businesses in Pakistan experience due to COVID?"
+          ]
+       },
+       {
+          "intent": "covid_transmission",
+          "text": [
+             "How does COVID-19 transfer?", "How does COVID-19 spread?", "How is COVID-19 transmitted?", "What is the mode of transmission of COVID-19?", "How does the COVID-19 virus propagate?",
+             "What are the ways COVID-19 is transmitted?", "How does COVID-19 spread from person to person?", "Is COVID-19 airborne?", "Can COVID-19 spread through touching surfaces?"
+          ]
+       },
+       {
+          "intent": "covid_effect_on_body",
+          "text": [
+             "How does COVID-19 affect the body?", "What is the impact of COVID-19 on the human body?", "How does COVID-19 affect the lungs?", "What are the effects of COVID-19 on the respiratory system?",
+             "How does COVID-19 damage the organs?", "What happens to your body when you get COVID-19?", "What are the main symptoms of COVID-19?", "How does COVID-19 affect the heart?",
+             "Does COVID-19 cause long-term damage?"
+          ]
+       },
+       {
+          "intent": "covid_prevention",
+          "text": [
+             "How can we prevent COVID-19?", "What are the preventive measures for COVID-19?", "How can we protect ourselves from COVID-19?", "What should I do to avoid getting COVID-19?",
+             "What steps can I take to stay safe from COVID-19?", "How do I avoid getting COVID-19?", "What precautions should I take for COVID-19?", "What is the best way to prevent COVID-19?",
+             "How can I lower my chances of catching COVID-19?"
+          ]
+       },
+       {
+          "intent": "covid_vaccine",
+          "text": [
+             "Tell me about the COVID-19 vaccine", "How does the COVID-19 vaccine work?", "Is the COVID-19 vaccine safe?", "When should I get the COVID-19 vaccine?", "How effective is the COVID-19 vaccine?",
+             "What are the side effects of the COVID-19 vaccine?", "Should I get a booster shot for COVID-19?", "Where can I get the COVID-19 vaccine?", "Can I get vaccinated if I already had COVID-19?",
+             "What are the benefits of the COVID-19 vaccine?", "What are the long-term effects of the COVID-19 vaccine?", "Who should not take the COVID-19 vaccine?", "Is the COVID-19 vaccine free?",
+             "How many doses of the COVID-19 vaccine do I need?"
+          ]
+       },
+       {
+          "intent": "covid_testing",
+          "text": [
+             "Where can I get tested for COVID-19?", "What are the different types of COVID-19 tests?", "How accurate are COVID-19 tests?", "Do I need a COVID-19 test?", "How soon after exposure can I test for COVID-19?",
+             "What is the PCR test for COVID-19?", "What is the rapid antigen test for COVID-19?", "Can I test for COVID-19 at home?", "How long does it take to get COVID-19 test results?",
+             "What do I do if my COVID-19 test is positive?", "What happens during a COVID-19 test?", "Where can I take a COVID test in my area?"
+          ]
+       },
+       {
+          "intent": "covid_isolation",
+          "text": [
+             "How long should I isolate if I have COVID-19?", "What should I do if I'm isolated because of COVID-19?", "How can I manage isolation during COVID-19?", "What should I do to protect others if I am infected with COVID-19?",
+             "Can I go out if I have mild COVID-19 symptoms?", "How can I take care of myself during COVID-19 isolation?", "Do I need to stay isolated if I have been in contact with someone with COVID-19?",
+             "How to stay safe when living with someone who has COVID-19?", "Can I leave isolation if I feel better?", "What should I do after isolation?"
+          ]
+       },
+       {
+          "intent": "goodbye",
+          "text": [
+             "Goodbye", "Bye", "See you", "Take care", "See you later", "Farewell", "Have a good day", "Talk to you later", "I'm leaving", "I must go"
+          ]
+       },
+       {
+          "intent": "unknown_response",
+          "text": [
+             "What is the capital of Mars?", "Who won the last World Cup?", "What is the meaning of life?"
+          ]
+       }
+    ]
+ }
+ 
